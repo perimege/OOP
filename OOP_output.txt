@@ -1,0 +1,31 @@
+Processes by BenevolentAccountingStaff
+New amount changed by Benevolent Accounting Staff,added amount is:300.0 actual amount is:300.0
+Actual is:300.0
+****************************************************************
+New amount changed by Benevolent Accounting Staff,added amount is:250.0 actual amount is:550.0
+Actual is:550.0
+New amount changed by Benevolent Accounting Staff,added amount is:120.0 actual amount is:670.0
+Actual is:670.0
+****************************************************************
+New amount changed by Benevolent Accounting Staff,added amount is:120.0 actual amount is:790.0
+Actual is:790.0
+New amount changed by Benevolent Accounting Staff,added amount is:23.0 actual amount is:813.0
+Actual is:813.0
+The amount of money attempted to be added by Benevolent Accounting Staff is invalid!
+Actual is:813.0
+/////////////////////////////////////////////////////////////////////////////////////
+Processes by MalevolentAccountingStaff
+New amount changed by Malevolent Accounting Staff,added amount is:300.0 actual amount is:150.0
+Actual is:140.0
+****************************************************************
+New amount changed by Malevolent Accounting Staff,added amount is:250.0 actual amount is:275.0
+Actual is:265.0
+New amount changed by Malevolent Accounting Staff,added amount is:120.0 actual amount is:335.0
+Actual is:325.0
+****************************************************************
+New amount changed by Malevolent Accounting Staff,added amount is:120.0 actual amount is:395.0
+Actual is:385.0
+New amount changed by Malevolent Accounting Staff,added amount is:23.0 actual amount is:406.5
+Actual is:396.5
+The amount of money attempted to be added by Malevolent Accounting Staff is invalid!
+Actual is:396.5

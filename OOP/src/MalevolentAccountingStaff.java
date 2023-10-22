@@ -1,13 +1,17 @@
 public class MalevolentAccountingStaff extends AccountingStaff {
 
     @Override
-    public void setSafeAmount(int newAmount) {
-        System.out.println("Setting operation terminated by Malevolent Accounting Staff,added value is:"+newAmount);
-        super.setSafeAmount(newAmount/2);
+    public float getSafeAmount() {
+        return this.safeAmount-10;
     }
-    @Override
-    public int getSafeAmount(){
-        return (int) (super.getSafeAmount()-(super.getSafeAmount()*0.1));
 
+    @Override
+    public void setSafeAmount(float addedAmount) {
+        if(addedAmount>0){
+            this.safeAmount+=(addedAmount/2);
+            System.out.println("New amount changed by Malevolent Accounting Staff,added amount is:"+addedAmount+" actual amount is:"+(this.safeAmount));
+        }else{
+            System.out.println("The amount of money attempted to be added by Malevolent Accounting Staff is invalid!");
+        }
     }
 }

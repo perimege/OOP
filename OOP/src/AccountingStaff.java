@@ -1,13 +1,9 @@
-public class AccountingStaff extends AbstractAccountingStaff {
-    private int safeAmount=1200;
+public abstract class AccountingStaff {
+    protected float safeAmount;
 
-    public int getSafeAmount(){
-        return this.safeAmount;
-    }
+    public abstract float getSafeAmount();
 
-    public void setSafeAmount(int newAmount){
-        this.safeAmount+=newAmount;
-    }
+    public abstract void setSafeAmount(float addedAmount);
 
 
 

@@ -2,9 +2,6 @@ public class Main {
     public static void main(String[] args) {
         BenevolentAccountingStaff benevolent = new BenevolentAccountingStaff();
         MalevolentAccountingStaff malevolent = new MalevolentAccountingStaff();
-//        benevolent.changeSafeAmount(12);
-//        malevolent.changeSafeAmount(12);
-//        malevolent.changeSafeAmount(-120);
         staffProcess(benevolent);
         staffProcess(malevolent);
 
